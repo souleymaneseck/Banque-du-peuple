@@ -1,0 +1,8 @@
+RewriteEngine On
+
+RewriteRule ^accueil$ accueil.php
+RewriteRule ^.{0}$ index.php
+RewriteRule ^comptes$ View/compte/liste.php
+RewriteRule ^client$ View/client/list.php
+
+RewriteRule ^client$ View/client/list.php
